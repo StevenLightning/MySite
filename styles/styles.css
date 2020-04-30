@@ -1,13 +1,85 @@
 /*styles.css -- Steven Harolds*/
 
 body {
-	font-family: "High Tower Text", "HGMaruGothicMPRO", "Dante", "Arial";
+	font-family: "Tahoma", "Arial";
 	font-size: 12pt;
 	color: #000000;
 	background-color: #ffffff;
+	/*height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;*/
+}
+
+.contentFrame {
+	padding: 0px;
+	border: 0px;
+	/*width: 100vw;
+	height: 100vh;
+	/*flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;*/
+	/*width: 100vw;*/
+	flex:1;
+  display:flex;
+  flex-direction:column;
+}
+
+.fullPage {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.asdf {
+	/*flex: 1 1 auto;*/
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.contentArea {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1;
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow: auto;
+}
+
+.me {
+	width: 100%;
+	max-width: 300px;
+	padding: 0;
+}
+
+.left {
+	width: 80px;
+}
+
+.videoBackground {
+	margin: 0;
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+footer {
+	width: 100vw;
+	padding: 15px;
 }
 
 h1 {
+	margin-top: 0px;
 	font-family: "Book Antiqua", "Bell MT";
 }
 
@@ -22,7 +94,11 @@ p {
 	margin-bottom: 12px;
 }
 
-.bg-1 { 
+.buffer30 {
+	height: 30px;
+}
+
+.bg-5 { 
 	background-color: #26a55f;
 	color: #ffffff;
 }
@@ -41,10 +117,21 @@ p {
   color: #ffffff;
 }
 
+.bg-1 { 
+	background-color: #07166b;
+	color: #ffffff;
+}
+
 .navbar
 {
-	background-color: #334294;
 	margin-bottom: 0;
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+}
+
+.navBtn {
+	cursor: pointer;
 }
 
 .navbar li a, .navbar .navbar-brand {
