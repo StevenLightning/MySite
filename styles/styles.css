@@ -81,14 +81,19 @@ footer {
 }
 
 h1 {
-	margin-top: 0px;
-	font-family: "Book Antiqua", "Bell MT";
+	/*margin-top: 0px;
+	font-family: "Book Antiqua", "Bell MT";*/
+	font-size: 24pt;
 }
 
 h2 {
 	margin-top: 0px;
 	margin-bottom: 20px;
 	font-size: 18pt;
+}
+
+h3 {
+	font-size: 14pt;
 }
 
 /*p {
@@ -99,6 +104,10 @@ h2 {
 /*.buffer30 {
 	height: 30px;
 }*/
+
+.img-fit-width {
+	width: 100%;
+}
 
 .bg-5 { 
 	background-color: #26a55f;
@@ -167,34 +176,10 @@ a:active {
 	text-decoration: none;
 }
 
-.sched1 {
-	background-color: #74c0ff;
-}
-
-.sched2 {
-	background-color: #3176f5;
-}
-
-.sched3 {
-	background-color: #1fd364;
-}
-
-.sched4 {
-	background-color: #0db14b;
-}
-
-.sched5 {
-	background-color: #598ef0;
-}
-
 .left .carousel-control {
 	background-color: rgb(0, 0, 0, 0) !important;
 }
 
 .carousel-inner img {
 	margin: auto;
-}
-
-#haiku {
-	margin-left: 40px;
 }
